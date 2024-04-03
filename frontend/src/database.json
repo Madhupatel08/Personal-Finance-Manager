@@ -1,0 +1,832 @@
+{
+    "users": [
+      {
+        "user_id": 1,
+        "username": "john.doe",
+        "password": "password123",
+        "email": "john.doe@example.com"
+      },
+      {
+        "user_id": 2,
+        "username": "jane.smith",
+        "password": "letmein",
+        "email": "jane.smith@example.com"
+      },
+      {
+        "user_id": 3,
+        "username": "michael.johnson",
+        "password": "securepass",
+        "email": "michael.johnson@example.com"
+      },
+      {
+        "user_id": 4,
+        "username": "emily.wilson",
+        "password": "p@ssw0rd",
+        "email": "emily.wilson@example.com"
+      },
+      {
+        "user_id": 5,
+        "username": "alexander.rodriguez",
+        "password": "12345678",
+        "email": "alexander.rodriguez@example.com"
+      },
+      {
+        "user_id": 6,
+        "username": "olivia.thompson",
+        "password": "password1234",
+        "email": "olivia.thompson@example.com"
+      },
+      {
+        "user_id": 7,
+        "username": "noah.carter",
+        "password": "securepass123",
+        "email": "noah.carter@example.com"
+      },
+      {
+        "user_id": 8,
+        "username": "sophia.baker",
+        "password": "letmein123",
+        "email": "sophia.baker@example.com"
+      },
+      {
+        "user_id": 9,
+        "username": "daniel.parker",
+        "password": "password@123",
+        "email": "daniel.parker@example.com"
+      },
+      {
+        "user_id": 10,
+        "username": "mia.gonzalez",
+        "password": "password2021",
+        "email": "mia.gonzalez@example.com"
+      }
+    ],
+    "accounts": [
+        {
+          "account_id": 1,
+          "user_id": 1,
+          "account_name": "Savings Account",
+          "bank_name": "ABC Bank",
+          "account_type": "asset",
+          "balance": 5000
+        },
+        {
+          "account_id": 2,
+          "user_id": 1,
+          "account_name": "Credit Card",
+          "bank_name": "XYZ Bank",
+          "account_type": "liability",
+          "balance": -1000
+        },
+        {
+          "account_id": 3,
+          "user_id": 2,
+          "account_name": "Checking Account",
+          "bank_name": "DEF Bank",
+          "account_type": "asset",
+          "balance": 2000
+        },
+        {
+          "account_id": 4,
+          "user_id": 2,
+          "account_name": "Investment Account",
+          "bank_name": "PQR Bank",
+          "account_type": "asset",
+          "balance": 10000
+        },
+        {
+          "account_id": 5,
+          "user_id": 3,
+          "account_name": "Business Account",
+          "bank_name": "GHI Bank",
+          "account_type": "asset",
+          "balance": 50000
+        },
+        {
+          "account_id": 6,
+          "user_id": 3,
+          "account_name": "Mortgage Loan",
+          "bank_name": "MNO Bank",
+          "account_type": "liability",
+          "balance": -250000
+        },
+        {
+          "account_id": 7,
+          "user_id": 4,
+          "account_name": "Salary Account",
+          "bank_name": "JKL Bank",
+          "account_type": "asset",
+          "balance": 3000
+        },
+        {
+          "account_id": 8,
+          "user_id": 4,
+          "account_name": "Car Loan",
+          "bank_name": "STU Bank",
+          "account_type": "liability",
+          "balance": -15000
+        },
+        {
+          "account_id": 9,
+          "user_id": 5,
+          "account_name": "Joint Account",
+          "bank_name": "VWX Bank",
+          "account_type": "asset",
+          "balance": 10000
+        },
+        {
+          "account_id": 10,
+          "user_id": 5,
+          "account_name": "Education Loan",
+          "bank_name": "EFG Bank",
+          "account_type": "liability",
+          "balance": -20000
+        },
+        {
+            "account_id": 11,
+            "user_id": 6,
+            "account_name": "Business Savings",
+            "bank_name": "ABC Bank",
+            "account_type": "asset",
+            "balance": 15000
+          },
+          {
+            "account_id": 12,
+            "user_id": 6,
+            "account_name": "Business Credit Card",
+            "bank_name": "DEF Bank",
+            "account_type": "liability",
+            "balance": -5000
+          },
+          {
+            "account_id": 13,
+            "user_id": 7,
+            "account_name": "Investment Portfolio",
+            "bank_name": "GHI Bank",
+            "account_type": "asset",
+            "balance": 75000
+          },
+          {
+            "account_id": 14,
+            "user_id": 7,
+            "account_name": "Home Loan",
+            "bank_name": "JKL Bank",
+            "account_type": "liability",
+            "balance": -300000
+          },
+          {
+            "account_id": 15,
+            "user_id": 8,
+            "account_name": "Personal Checking",
+            "bank_name": "MNO Bank",
+            "account_type": "asset",
+            "balance": 5000
+          },
+          {
+            "account_id": 16,
+            "user_id": 8,
+            "account_name": "Credit Line",
+            "bank_name": "PQR Bank",
+            "account_type": "liability",
+            "balance": -10000
+          },
+          {
+            "account_id": 17,
+            "user_id": 9,
+            "account_name": "Savings Plus",
+            "bank_name": "STU Bank",
+            "account_type": "asset",
+            "balance": 20000
+          },
+          {
+            "account_id": 18,
+            "user_id": 9,
+            "account_name": "Car Loan",
+            "bank_name": "VWX Bank",
+            "account_type": "liability",
+            "balance": -25000
+          },
+          {
+            "account_id": 19,
+            "user_id": 10,
+            "account_name": "Joint Savings",
+            "bank_name": "EFG Bank",
+            "account_type": "asset",
+            "balance": 30000
+          },
+          {
+            "account_id": 20,
+            "user_id": 10,
+            "account_name": "Student Loan",
+            "bank_name": "YZA Bank",
+            "account_type": "liability",
+            "balance": -50000
+          }
+        ],
+    "budgets": [
+        {
+            "budget_id": 1,
+            "user_id": 1,
+            "budget_name": "Groceries",
+            "amount": 500,
+            "period": "monthly",
+            "rollover_amount": 100,
+            "adjusted_amount": 0
+        },
+        {
+            "budget_id": 2,
+            "user_id": 1,
+            "budget_name": "Transportation",
+            "amount": 200,
+            "period": "monthly",
+            "rollover_amount": 0,
+            "adjusted_amount": 0
+        },
+        {
+            "budget_id": 3,
+            "user_id": 2,
+            "budget_name": "Entertainment",
+            "amount": 300,
+            "period": "monthly",
+            "rollover_amount": 50,
+            "adjusted_amount": 0
+        },
+        {
+            "budget_id": 4,
+            "user_id": 2,
+            "budget_name": "Utilities",
+            "amount": 400,
+            "period": "monthly",
+            "rollover_amount": 0,
+            "adjusted_amount": 0
+        },
+        {
+            "budget_id": 5,
+            "user_id": 3,
+            "budget_name": "Travel",
+            "amount": 1000,
+            "period": "yearly",
+            "rollover_amount": 200,
+            "adjusted_amount": 0
+        },
+        {
+            "budget_id": 6,
+            "user_id": 3,
+            "budget_name": "Dining Out",
+            "amount": 250,
+            "period": "monthly",
+            "rollover_amount": 0,
+            "adjusted_amount": 0
+        },
+        {
+            "budget_id": 7,
+            "user_id": 4,
+            "budget_name": "Healthcare",
+            "amount": 300,
+            "period": "monthly",
+            "rollover_amount": 0,
+            "adjusted_amount": 0
+        },
+        {
+            "budget_id": 8,
+            "user_id": 4,
+            "budget_name": "Education",
+            "amount": 500,
+            "period": "monthly",
+            "rollover_amount": 0,
+            "adjusted_amount": 0
+        },
+        {
+            "budget_id": 9,
+            "user_id": 5,
+            "budget_name": "Gifts",
+            "amount": 200,
+            "period": "monthly",
+            "rollover_amount": 50,
+            "adjusted_amount": 0
+        },
+        {
+            "budget_id": 10,
+            "user_id": 5,
+            "budget_name": "Savings",
+            "amount": 1000,
+            "period": "monthly",
+            "rollover_amount": 0,
+            "adjusted_amount": 0
+        },
+        {
+      "budget_id": 11,
+      "user_id": 6,
+      "budget_name": "Shopping",
+      "amount": 400,
+      "period": "monthly",
+      "rollover_amount": 0,
+      "adjusted_amount": 0
+    },
+    {
+      "budget_id": 12,
+      "user_id": 6,
+      "budget_name": "Fitness",
+      "amount": 150,
+      "period": "monthly",
+      "rollover_amount": 0,
+      "adjusted_amount": 0
+    },
+    {
+      "budget_id": 13,
+      "user_id": 7,
+      "budget_name": "Home Maintenance",
+      "amount": 300,
+      "period": "monthly",
+      "rollover_amount": 100,
+      "adjusted_amount": 0
+    },
+    {
+      "budget_id": 14,
+      "user_id": 7,
+      "budget_name": "Charity",
+      "amount": 200,
+      "period": "monthly",
+      "rollover_amount": 0,
+      "adjusted_amount": 0
+    },
+    {
+      "budget_id": 15,
+      "user_id": 8,
+      "budget_name": "Insurance",
+      "amount": 500,
+      "period": "monthly",
+      "rollover_amount": 0,
+      "adjusted_amount": 0
+    },
+    {
+      "budget_id": 16,
+      "user_id": 8,
+      "budget_name": "Vacation",
+      "amount": 1000,
+      "period": "yearly",
+      "rollover_amount": 200,
+      "adjusted_amount": 0
+    },
+    {
+      "budget_id": 17,
+      "user_id": 9,
+      "budget_name": "Pets",
+      "amount": 150,
+      "period": "monthly",
+      "rollover_amount": 0,
+      "adjusted_amount": 0
+    },
+    {
+      "budget_id": 18,
+      "user_id": 9,
+      "budget_name": "Hobbies",
+      "amount": 250,
+      "period": "monthly",
+      "rollover_amount": 50,
+      "adjusted_amount": 0
+    },
+    {
+      "budget_id": 19,
+      "user_id": 10,
+      "budget_name": "Utilities",
+      "amount": 300,
+      "period": "monthly",
+      "rollover_amount": 0,
+      "adjusted_amount": 0
+    },
+    {
+      "budget_id": 20,
+      "user_id": 10,
+      "budget_name": "Debt Repayment",
+      "amount": 500,
+      "period": "monthly",
+      "rollover_amount": 0,
+      "adjusted_amount": 0
+    }
+        ],
+    "bills": [
+            {
+              "bill_id": 1,
+              "user_id": 1,
+              "bill_name": "Electricity",
+              "description": "Monthly electricity bill",
+              "min_amount": 50,
+              "max_amount": 100,
+              "frequency": "monthly",
+              "end_date": "2023-12-31",
+              "extension_date": null,
+              "skip_count": 0
+            },
+            {
+              "bill_id": 2,
+              "user_id": 1,
+              "bill_name": "Internet",
+              "description": "Monthly internet bill",
+              "min_amount": 30,
+              "max_amount": 50,
+              "frequency": "monthly",
+              "end_date": "2023-12-31",
+              "extension_date": null,
+              "skip_count": 0
+            },
+            {
+              "bill_id": 3,
+              "user_id": 2,
+              "bill_name": "Water",
+              "description": "Quarterly water bill",
+              "min_amount": 40,
+              "max_amount": 80,
+              "frequency": "quarterly",
+              "end_date": "2023-12-31",
+              "extension_date": null,
+              "skip_count": 0
+            },
+            {
+              "bill_id": 4,
+              "user_id": 2,
+              "bill_name": "Gas",
+              "description": "Monthly gas bill",
+              "min_amount": 20,
+              "max_amount": 40,
+              "frequency": "monthly",
+              "end_date": "2023-12-31",
+              "extension_date": null,
+              "skip_count": 0
+            },
+            {
+              "bill_id": 5,
+              "user_id": 3,
+              "bill_name": "Rent",
+              "description": "Monthly rent payment",
+              "min_amount": 800,
+              "max_amount": 1000,
+              "frequency": "monthly",
+              "end_date": "2023-12-31",
+              "extension_date": null,
+              "skip_count": 0
+            },
+            {
+              "bill_id": 6,
+              "user_id": 3,
+              "bill_name": "Insurance",
+              "description": "Yearly insurance premium",
+              "min_amount": 500,
+              "max_amount": 1000,
+              "frequency": "yearly",
+              "end_date": "2023-12-31",
+              "extension_date": null,
+              "skip_count": 0
+            },
+            {
+              "bill_id": 7,
+              "user_id": 4,
+              "bill_name": "Phone",
+              "description": "Monthly phone bill",
+              "min_amount": 25,
+              "max_amount": 50,
+              "frequency": "monthly",
+              "end_date": "2023-12-31",
+              "extension_date": null,
+              "skip_count": 0
+            },
+            {
+              "bill_id": 8,
+              "user_id": 4,
+              "bill_name": "Gym Membership",
+              "description": "Monthly gym membership fee",
+              "min_amount": 50,
+              "max_amount": 100,
+              "frequency": "monthly",
+              "end_date": "2023-12-31",
+              "extension_date": null,
+              "skip_count": 0
+            }, 
+            {
+                "bill_id": 9,
+                "user_id": 5,
+                "bill_name": "Cable TV",
+                "description": "Monthly cable TV subscription",
+                "min_amount": 40,
+                "max_amount": 60,
+                "frequency": "monthly",
+                "end_date": "2023-12-31",
+                "extension_date": null,
+                "skip_count": 0
+              },
+              {
+                "bill_id": 10,
+                "user_id": 5,
+                "bill_name": "Car Loan",
+                "description": "Monthly car loan payment",
+                "min_amount": 200,
+                "max_amount": 300,
+                "frequency": "monthly",
+                "end_date": "2023-12-31",
+                "extension_date": null,
+                "skip_count": 0
+              },
+              {
+                "bill_id": 11,
+                "user_id": 6,
+                "bill_name": "Medical Insurance",
+                "description": "Monthly medical insurance premium",
+                "min_amount": 100,
+                "max_amount": 200,
+                "frequency": "monthly",
+                "end_date": "2023-12-31",
+                "extension_date": null,
+                "skip_count": 0
+              },
+              {
+                "bill_id": 12,
+                "user_id": 6,
+                "bill_name": "Subscription Service",
+                "description": "Monthly subscription service payment",
+                "min_amount": 10,
+                "max_amount": 20,
+                "frequency": "monthly",
+                "end_date": "2023-12-31",
+                "extension_date": null,
+                "skip_count": 0
+              },
+              {
+                "bill_id": 13,
+                "user_id": 7,
+                "bill_name": "Home Security",
+                "description": "Monthly home security system fee",
+                "min_amount": 30,
+                "max_amount": 50,
+                "frequency": "monthly",
+                "end_date": "2023-12-31",
+                "extension_date": null,
+                "skip_count": 0
+              },
+              {
+                "bill_id": 14,
+                "user_id": 7,
+                "bill_name": "Internet Subscription",
+                "description": "Monthly internet subscription",
+                "min_amount": 40,
+                "max_amount": 60,
+                "frequency": "monthly",
+                "end_date": "2023-12-31",
+                "extension_date": null,
+                "skip_count": 0
+              },
+              {
+                "bill_id": 15,
+                "user_id": 8,
+                "bill_name": "Home Maintenance",
+                "description": "Quarterly home maintenance service",
+                "min_amount": 200,
+                "max_amount": 300,
+                "frequency": "quarterly",
+                "end_date": "2023-12-31",
+                "extension_date": null,
+                "skip_count": 0
+              },
+              {
+                "bill_id": 16,
+                "user_id": 8,
+                "bill_name": "Streaming Service",
+                "description": "Monthly streaming service subscription",
+                "min_amount": 15,
+                "max_amount": 25,
+                "frequency": "monthly",
+                "end_date": "2023-12-31",
+                "extension_date": null,
+                "skip_count": 0
+              },
+              {
+                "bill_id": 17,
+                "user_id": 9,
+                "bill_name": "Credit Card",
+                "description": "Monthly credit card payment",
+                "min_amount": 50,
+                "max_amount": 100,
+                "frequency": "monthly",
+                "end_date": "2023-12-31",
+                "extension_date": null,
+                "skip_count": 0
+              },
+              {
+                "bill_id": 18,
+                "user_id": 9,
+                "bill_name": "Pet Expenses",
+                "description": "Monthly expenses for pets",
+                "min_amount": 50,
+                "max_amount": 100,
+                "frequency": "monthly",
+                "end_date": "2023-12-31",
+                "extension_date": null,
+                "skip_count": 0
+              },
+              {
+                "bill_id": 19,
+                "user_id": 10,
+                "bill_name": "Rent",
+                "description": "Monthly rent payment",
+                "min_amount": 1000,
+                "max_amount": 1500,
+                "frequency": "monthly",
+                "end_date": "2023-12-31",
+                "extension_date": null,
+                "skip_count": 0
+              },
+              {
+                "bill_id": 20,
+                "user_id": 10,
+                "bill_name": "Streaming Subscription",
+                "description": "Monthly streaming subscription",
+                "min_amount": 10,
+                "max_amount": 20,
+                "frequency": "monthly",
+                "end_date": "2023-12-31",
+                "extension_date": null,
+                "skip_count": 0
+              }],
+    "transactions": [
+                {
+                  "transaction_id": 1,
+                  "user_id": 1,
+                  "source_account_id": 1,
+                  "destination_account_id": 22,
+                  "amount": 1000,
+                  "transaction_date": "2023-07-01",
+                  "description": "Transfer from Savings to Home Equity Loan"
+                },
+                {
+                  "transaction_id": 2,
+                  "user_id": 1,
+                  "source_account_id": 3,
+                  "destination_account_id": 21,
+                  "amount": 500,
+                  "transaction_date": "2023-07-02",
+                  "description": "Deposit to Education Loan"
+                },
+                {
+                  "transaction_id": 3,
+                  "user_id": 2,
+                  "source_account_id": 4,
+                  "destination_account_id": 24,
+                  "amount": 2000,
+                  "transaction_date": "2023-07-03",
+                  "description": "Transfer from Gas to Investment Account"
+                },
+                {
+                  "transaction_id": 4,
+                  "user_id": 2,
+                  "source_account_id": 6,
+                  "destination_account_id": 23,
+                  "amount": 100,
+                  "transaction_date": "2023-07-04",
+                  "description": "Payment of Mortgage Loan"
+                },
+                {
+                  "transaction_id": 5,
+                  "user_id": 3,
+                  "source_account_id": 7,
+                  "destination_account_id": 26,
+                  "amount": 500,
+                  "transaction_date": "2023-07-05",
+                  "description": "Transfer from Salary Account to Joint Account"
+                },
+                {
+                  "transaction_id": 6,
+                  "user_id": 3,
+                  "source_account_id": 9,
+                  "destination_account_id": 25,
+                  "amount": 50,
+                  "transaction_date": "2023-07-06",
+                  "description": "Payment of Car Loan"
+                },
+                {
+                  "transaction_id": 7,
+                  "user_id": 4,
+                  "source_account_id": 10,
+                  "destination_account_id": 28,
+                  "amount": 300,
+                  "transaction_date": "2023-07-07",
+                  "description": "Transfer from Joint Account to Investment Account"
+                },
+                {
+                  "transaction_id": 8,
+                  "user_id": 4,
+                  "source_account_id": 12,
+                  "destination_account_id": 27,
+                  "amount": 20,
+                  "transaction_date": "2023-07-08",
+                  "description": "Payment of Home Loan"
+                },
+                {
+                    "transaction_id": 9,
+                    "user_id": 5,
+                    "source_account_id": 13,
+                    "destination_account_id": 29,
+                    "amount": 200,
+                    "transaction_date": "2023-07-09",
+                    "description": "Transfer from Savings to Investment Account"
+                  },
+                  {
+                    "transaction_id": 10,
+                    "user_id": 5,
+                    "source_account_id": 15,
+                    "destination_account_id": 21,
+                    "amount": 150,
+                    "transaction_date": "2023-07-10",
+                    "description": "Payment of Education Loan"
+                  },
+                  {
+                    "transaction_id": 11,
+                    "user_id": 6,
+                    "source_account_id": 16,
+                    "destination_account_id": 22,
+                    "amount": 300,
+                    "transaction_date": "2023-07-11",
+                    "description": "Transfer from Credit Line to Home Equity Loan"
+                  },
+                  {
+                    "transaction_id": 12,
+                    "user_id": 6,
+                    "source_account_id": 19,
+                    "destination_account_id": 23,
+                    "amount": 50,
+                    "transaction_date": "2023-07-12",
+                    "description": "Payment of Mortgage Loan"
+                  },
+                  {
+                    "transaction_id": 13,
+                    "user_id": 7,
+                    "source_account_id": 21,
+                    "destination_account_id": 27,
+                    "amount": 400,
+                    "transaction_date": "2023-07-13",
+                    "description": "Transfer from Investment Account to Home Loan"
+                  },
+                  {
+                    "transaction_id": 14,
+                    "user_id": 7,
+                    "source_account_id": 22,
+                    "destination_account_id": 28,
+                    "amount": 75,
+                    "transaction_date": "2023-07-14",
+                    "description": "Payment of Credit Card"
+                  },
+                  {
+                    "transaction_id": 15,
+                    "user_id": 8,
+                    "source_account_id": 25,
+                    "destination_account_id": 30,
+                    "amount": 500,
+                    "transaction_date": "2023-07-15",
+                    "description": "Transfer from Car Loan to Investment Account"
+                  },
+                  {
+                    "transaction_id": 16,
+                    "user_id": 8,
+                    "source_account_id": 26,
+                    "destination_account_id": 24,
+                    "amount": 25,
+                    "transaction_date": "2023-07-16",
+                    "description": "Payment of Gas Bill"
+                  },
+                  {
+                    "transaction_id": 17,
+                    "user_id": 9,
+                    "source_account_id": 28,
+                    "destination_account_id": 25,
+                    "amount": 200,
+                    "transaction_date": "2023-07-17",
+                    "description": "Transfer from Investment Account to Car Loan"
+                  },
+                  {
+                    "transaction_id": 18,
+                    "user_id": 9,
+                    "source_account_id": 30,
+                    "destination_account_id": 26,
+                    "amount": 100,
+                    "transaction_date": "2023-07-18",
+                    "description": "Payment of Phone Bill"
+                  },
+                  {
+                    "transaction_id": 19,
+                    "user_id": 10,
+                    "source_account_id": 31,
+                    "destination_account_id": 22,
+                    "amount": 500,
+                    "transaction_date": "2023-07-19",
+                    "description": "Transfer from Investment Account to Home Equity Loan"
+                  },
+                  {
+                    "transaction_id": 20,
+                    "user_id": 10,
+                    "source_account_id": 33,
+                    "destination_account_id": 21,
+                    "amount": 75,
+                    "transaction_date": "2023-07-20",
+                    "description": "Payment of Education Loan"
+                  }
+                ]
+  }
+  

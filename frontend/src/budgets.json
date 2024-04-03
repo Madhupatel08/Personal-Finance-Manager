@@ -1,0 +1,56 @@
+{
+  "budgets": 
+  [
+    {
+      "budget_id": 1,
+      "budget": "Groceries",
+      "budgeted": 100,
+      "spent (per day)": -88.49,
+      "left (per day)": 11.51
+    },
+    {
+      "budget_id": 2,
+      "budget": "Bills",
+      "budgeted": 800,
+      "spent (per day)": -50,
+      "left (per day)": 750
+    },
+    {
+      "budget_id": 3,
+      "budget": "Car",
+      "budgeted": 100,
+      "spent (per day)": -142,
+      "left (per day)": -42
+    },
+    {
+      "budget_id": 4,
+      "budget": "Going Out",
+      "budgeted": 300,
+      "spent (per day)": -33.25,
+      "left (per day)": 266.75
+    }
+  ],
+  "summary":
+  [
+    {
+      "sum (budgeted)": 1300,
+      "sum (spent per day)": -313.74,
+      "sum (left per day)": 986.26
+    }
+  ],
+  "progress bar":
+  [
+    {
+      "budgeted": 1300,
+      "already spent in time period": -313.74
+    }
+  ],
+  "new budgets form":
+  [
+    {
+      "budget_id": 1,
+      "budget name": "Groceries",
+      "budget amount": 100
+    }
+  ]
+}
